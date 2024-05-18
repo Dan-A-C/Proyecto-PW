@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* PaginaPrincipal */
+
+body {
+    background-color: #F6F6F6;
+}
+
+.busqueda {
+    background-color: #FFFFFF;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .cuenta {
+    float: right;
+    margin-right: 10px;
+    display: inline-flex;
+  }
+
+  .cuenta a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .cuenta a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .cuenta a.active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .imagen {
+    border-radius: 15%;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .perfil {
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    padding: 0 10px;
+  }
+
+  .container{
+    max-width: 90%;
+    margin: 39.5px auto;
+    display: flex;
+  }
+
+  .search-input-box{
+    width: 90%;
+    border-radius: 5px;
+    position: relative;
+    color: #f5f6f4;
+  }
+
+  .search-input-box input {
+    width: 98%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .search-button{
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    color: #868686;
+  }
+
+  .search-button button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .search-button button a{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .imagenes {
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cuadrado{
+    max-width: 100%;
+    background-color: #000000;
+    height: 370px;
+  }
+
+  .container-cuadrado{
+    width: 28.27%;
+  }
+
+  .info-cuadrado{
+    padding-top: 10px;
+  }
+
+  .info-cuadrado p{
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .info-cuadrado a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container-cuadrado2{
+    width: 28.27%;
+    margin-left: auto;
+  }
+
+  .items {
+    max-width: 90%;
+    display: flex;
+    margin: 69px auto;
+  }
+
+  .rect{
+    max-width: 100%;
+    background-color: #000000;
+    height: 240.28px;
+  }
+
+  .container-rect{
+    width: 14.13%;
+  }
+
+  .info-rect{
+    padding-top: 10px;
+  }
+
+  .info-rect p{
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .info-rect a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container-rect2{
+    width: 14.13%;
+    margin-left: auto;
+  }
+
+  hr {
+    width: 100%;
+    margin: 43px 0;
+    border: 10px solid #000000
+  }
+
+  .anuncios{
+    max-width: 100%;
+    background-color: #000000;
+    height: 329.27px;
+  }
+
+  .container-anuncios{
+    width: 49.12%;
+  }
+
+  .info-anuncios{
+    padding-top: 10px;
+  }
+
+  .info-anuncios p{
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .info-anuncios a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container-anuncios2{
+    width: 98.24%;
+    margin-left: auto;
+  }
+  
+  .anuncios2{
+    max-width: 100%;
+    background-color: #000000;
+    height: 186.47px;
+  }
+
+  .play-anuncios2{
+    display: grid;
+    width: 50%;
+  }  
+  
+  .anuncio{
+    max-width: 90%;
+    display: flex;
+    margin: 69px auto;
+  }
+
+  footer {
+    background: #E1E1E1;
+    width: 100%;
+    height: 282px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+  }
+  footer a{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 19.69px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .footer-container{
+    display: flex;
+    font-size: xx-large;
+  }
+  .footer-nombre {
+    display: grid;
+    margin: 3% 5% 0;
+  }
+  .footer-nombre2 {
+    margin: 3% 5% 0;
+  }
+
+  /* Resultados de Busqueda */
+
+
+
+  /* Detalle del Producto */

@@ -1,11 +1,24 @@
-import React from 'react'
+import React from 'react';
+import './Parte1.css';
 
 function Cabecera() {
-    return (
-        <div>
-            <h1>Esta es la cabecera</h1>
-        </div>
-    )
+  return (
+    <div className="busqueda"> 
+      <div className="topnav"> 
+        <a className="active" href="#Tienda">Tienda</a>
+        <a href="#MasVendidos">Mas vendidos</a>
+        <a href="#Nuevos">Nuevos</a>
+        <a href="#Ofertas">Ofertas</a>
+      </div>
+      <div className="cuenta"> 
+        <button className="imagen">
+          <img src="../Imagenes/shopping-cart.svg" alt="" />
+        </button>
+        <a href="#Ayuda">Ayuda</a>
+        <button className="perfil">Mi Cuenta</button> 
+      </div>
+    </div>
+  );
 }
 
-export default Cabecera
+export default Cabecera;
