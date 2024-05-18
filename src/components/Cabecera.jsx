@@ -12,7 +12,7 @@ function Cabecera() {
       </div>
       <div className="cuenta"> 
         <button className="imagen">
-          <img src="../Imagenes/shopping-cart.svg" alt="" />
+          <img src="src" alt="" />
         </button>
         <a href="#Ayuda">Ayuda</a>
         <button className="perfil">Mi Cuenta</button> 
