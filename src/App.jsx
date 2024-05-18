@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="Aplicacion">
       <Routes>
-        <Route path="/" element={ <Inicio /> } />
+        <Route path="/Inicio" element={ <Inicio /> } />
         <Route path="/usuario_admin_dashboard" element={ <UsuarioAdminDashboard /> } />
         <Route path="/checkout" element={ <Checkout /> } />
         <Route path="/carrito" element={ <Carrito /> } />

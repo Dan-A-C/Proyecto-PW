@@ -1,5 +1,9 @@
 import React from 'react';
 import './Parte1.css';
+import facebook from '../assets/facebook-square.svg'
+import instagram from '../assets/instagram.svg'
+import X from '../assets/twitter-square.svg'
+import youtube from '../assets/youtube-square.svg'
 
 function Pie() {
   return (
@@ -29,10 +33,10 @@ function Pie() {
           <a href="">FAQ</a>
         </div>
         <div className="footer-nombre2">
-          <a href="#Facebook"><img src="../Imagenes/facebook-square.svg" alt="Facebook" /></a>
-          <a href="#Instagram"><img src="../Imagenes/instagram.svg" alt="Instagram" /></a>
-          <a href="#X"><img src="../Imagenes/twitter-square.svg" alt="X" /></a>
-          <a href="#Youtube"><img src="../Imagenes/youtube-square.svg" alt="Youtube" /></a>
+          <a href="#Facebook"><img src={facebook} alt="Facebook" /></a>
+          <a href="#Instagram"><img src={instagram} alt="Instagram" /></a>
+          <a href="#X"><img src={X} alt="X" /></a>
+          <a href="#Youtube"><img src={youtube} alt="Youtube" /></a>
         </div>
       </div>
     </footer>

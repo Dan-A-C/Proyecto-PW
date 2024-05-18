@@ -3,12 +3,15 @@
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
 }
 
 /* PaginaPrincipal */
 
 body {
     background-color: #F6F6F6;
+    max-width: 100%;
+    display: block !important;
 }
 
 .busqueda {
@@ -83,7 +86,7 @@ body {
     width: 90%;
     border-radius: 5px;
     position: relative;
-    color: #f5f6f4;
+    color: #000000;
   }
 
   .search-input-box input {
@@ -96,6 +99,7 @@ body {
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
+    background: #ddd;
   }
   
   .search-button{
@@ -262,6 +266,8 @@ body {
     font-weight: 700;
     justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   footer a{
     font-family: Roboto;
@@ -269,7 +275,7 @@ body {
     font-weight: 400 !important;
     line-height: 19.69px;
     text-align: left;
-    color: #000000;
+    color: #000000 !important;
     text-decoration: none;
   }
 
@@ -280,8 +286,9 @@ body {
   .footer-nombre {
     display: grid;
     margin: 3% 5% 0;
+    text-align: left;
   }
-  .footer-nombre2 {
+  .footer-nombre2 { 
     margin: 3% 5% 0;
   }
 

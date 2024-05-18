@@ -1,5 +1,6 @@
 import React from 'react';
-import './Parte1.css';
+import compra from '../assets/shopping-cart.svg';
+import './Parte1.css'
 
 function Cabecera() {
   return (
@@ -12,7 +13,7 @@ function Cabecera() {
       </div>
       <div className="cuenta"> 
         <button className="imagen">
-          <img src="src" alt="" />
+          <img src={compra} alt="" />
         </button>
         <a href="#Ayuda">Ayuda</a>
         <button className="perfil">Mi Cuenta</button> 
