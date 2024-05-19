@@ -1,9 +1,9 @@
-import React from 'react';
-import './Parte1.css';
-import facebook from '../assets/facebook-square.svg'
-import instagram from '../assets/instagram.svg'
-import X from '../assets/twitter-square.svg'
-import youtube from '../assets/youtube-square.svg'
+import React from "react";
+import "./Parte1.css";
+import facebook from "../assets/facebook-square.svg";
+import instagram from "../assets/instagram.svg";
+import X from "../assets/twitter-square.svg";
+import youtube from "../assets/youtube-square.svg";
 
 function Pie() {
   return (
@@ -12,7 +12,9 @@ function Pie() {
         <div className="footer-nombre">
           <h2>LA TIENDITA DEL ABUELO</h2>
           <p>&copy; 2010-2020</p>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Privacy — Terms</a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            Privacy — Terms
+          </a>
         </div>
         <div className="footer-nombre">
           <p>Cuenta</p>
@@ -33,10 +35,18 @@ function Pie() {
           <a href="">FAQ</a>
         </div>
         <div className="footer-nombre2">
-          <a href="#Facebook"><img src={facebook} alt="Facebook" /></a>
-          <a href="#Instagram"><img src={instagram} alt="Instagram" /></a>
-          <a href="#X"><img src={X} alt="X" /></a>
-          <a href="#Youtube"><img src={youtube} alt="Youtube" /></a>
+          <a href="#Facebook">
+            <img src={facebook} alt="Facebook" />
+          </a>
+          <a href="#Instagram">
+            <img src={instagram} alt="Instagram" />
+          </a>
+          <a href="#X">
+            <img src={X} alt="X" />
+          </a>
+          <a href="#Youtube">
+            <img src={youtube} alt="Youtube" />
+          </a>
         </div>
       </div>
     </footer>

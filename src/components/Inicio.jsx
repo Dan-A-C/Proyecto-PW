@@ -1,44 +1,46 @@
-import React, { useEffect } from 'react';
-import Pie from './Pie';
-import Cabecera from './Cabecera';
-import './Parte1.css';
+import React, { useEffect } from "react";
+import Pie from "./Pie";
+import Cabecera from "./Cabecera";
+import "./Parte1.css"
 
 function Inicio() {
   useEffect(() => {
     const itemsData = [
-      { nombre: 'Item 1', enlace: '#item1' },
-      { nombre: 'Item 2', enlace: '#item2' },
-      { nombre: 'Item 3', enlace: '#item3' },
-      { nombre: 'Item 4', enlace: '#item4' },
-      { nombre: 'Item 5', enlace: '#item5' }
+      { nombre: "Item 1", enlace: "#item1" },
+      { nombre: "Item 2", enlace: "#item2" },
+      { nombre: "Item 3", enlace: "#item3" },
+      { nombre: "Item 4", enlace: "#item4" },
+      { nombre: "Item 5", enlace: "#item5" },
     ];
 
-    const itemsContainers = document.querySelectorAll('#items-container');
+    const itemsContainers = document.querySelectorAll("#items-container");
 
-    itemsContainers.forEach(container => {
-      const itemsDiv = document.createElement('div');
-      itemsDiv.classList.add('items');
+    itemsContainers.forEach((container) => {
+      const itemsDiv = document.createElement("div");
+      itemsDiv.classList.add("items");
 
       itemsData.forEach((item, index) => {
-        const containerDiv = document.createElement('div');
-        containerDiv.classList.add(index === 0 ? 'container-rect' : 'container-rect2');
+        const containerDiv = document.createElement("div");
+        containerDiv.classList.add(
+          index === 0 ? "container-rect" : "container-rect2"
+        );
 
-        const rectDiv = document.createElement('div');
-        rectDiv.classList.add('rect');
+        const rectDiv = document.createElement("div");
+        rectDiv.classList.add("rect");
 
-        const img = document.createElement('img');
-        img.src = '';
-        img.alt = '';
+        const img = document.createElement("img");
+        img.src = "";
+        img.alt = "";
 
-        const infoDiv = document.createElement('div');
-        infoDiv.classList.add('info-rect');
+        const infoDiv = document.createElement("div");
+        infoDiv.classList.add("info-rect");
 
-        const p = document.createElement('p');
+        const p = document.createElement("p");
         p.textContent = item.nombre;
 
-        const a = document.createElement('a');
+        const a = document.createElement("a");
         a.href = item.enlace;
-        a.textContent = 'Learn More';
+        a.textContent = "Learn More";
 
         infoDiv.appendChild(p);
         infoDiv.appendChild(a);
@@ -61,7 +63,9 @@ function Inicio() {
           <input type="text" placeholder="Busca productos por nombre..." />
         </div>
         <div className="search-button">
-          <button><a href="../HTML/ResultadosBusqueda.html">Buscar</a></button>
+          <button>
+            <a href="./Busqueda">Buscar</a>
+          </button>
         </div>
       </div>
       <div className="imagenes">
