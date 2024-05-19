@@ -284,11 +284,11 @@ footer a {
 }
 .footer-nombre {
   display: grid;
-  margin: 3% 4% 0;
+  margin: 3% 4.5% 0;
   text-align: left;
 }
 .footer-nombre2 {
-  margin: 3% 4% 0;
+  margin: 3% 4.5% 0;
 }
 
 /* Resultados de Busqueda */
